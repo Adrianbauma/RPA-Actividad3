@@ -1,8 +1,8 @@
-(define (problem problema_1) (:domain Actividad3)
+(define (problem problema_2) (:domain Actividad3)
 (:objects ; son todos los que intervienen en el problema (ciudades, vehiculos, etc)
     ambulancia - vehiculo
     l1_hospital - localizacion
-    l2 l4 l3 - localizacion
+    l2 l4 l3 l5 l6 - localizacion
     pac1 pac2 - paciente
 )
 
@@ -16,7 +16,11 @@
     (enlace l4 l2)
     (enlace l4 l3)
     (enlace l3 l4)
-    (ubi_pac pac1 l4)
+    (enlace l4 l5)
+    (enlace l5 l4)
+    (enlace l6 l5)
+    (enlace l5 l6)
+    (ubi_pac pac1 l6)
     (ubi_pac pac2 l3)
     
 )
