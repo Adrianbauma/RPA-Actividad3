@@ -1,9 +1,9 @@
-(define (problem problema_2) (:domain Actividad3)
+(define (problem problema_3) (:domain Actividad3)
 (:objects ; son todos los que intervienen en el problema (ciudades, vehiculos, etc)
     ambulancia - vehiculo
     l1_hospital - localizacion
     l2 l4 l3 l5 l6 - localizacion
-    pac1 pac2 - paciente
+    pac1 pac2 pac3 - paciente
 )
 
 (:init
@@ -22,6 +22,7 @@
     (enlace l5 l6)
     (ubi_pac pac1 l6)
     (ubi_pac pac2 l3)
+    (ubi_pac pac3 l5)
     
 )
 
@@ -30,6 +31,7 @@
     (ubi_amb ambulancia l1_hospital)
     (ubi_pac pac1 l1_hospital)
     (ubi_pac pac2 l1_hospital)
+    (ubi_pac pac3 l1_hospital)
 ))
 
 ;un-comment the following line if metric is needed
