@@ -69,7 +69,8 @@
     )
     :effect (and 
         (not (paciente_en_amb ?pac ?amb))
-        (ubi_pac ?pac ?localOrigen)  
+        (ubi_pac ?pac ?localOrigen)
+        
     )
 )
 
