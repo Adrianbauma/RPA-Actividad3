@@ -21,7 +21,7 @@
     (enlace ?l1 - localizacion ?l2 - localizacion)
     ; átomo que simboliza el enlace entre dos ciudades
     (paciente_en_amb ?pac - paciente ?amb - vehiculo)
-    (ubi_pac ?pac -paciente ?l - localizacion)
+    (ubi_pac ?pac - paciente ?l - localizacion)
 
 )
 
